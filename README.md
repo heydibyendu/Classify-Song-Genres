@@ -8,6 +8,8 @@ The goal of the project was to look through the dataset and classify the genre o
 ## Dataset
 The music steaming data is composed of two datasets: the first dataset is about the tracks alongside the track metrics, and the second dataset is about the musical features on a scale from -1 to 1. The two datasets are concatenated, and this is how the first 5 rows of the dataset look like:
 
+![Image](https://github.com/heydibyendu/Classify-Song-Genres/blob/master/dataset_head.png)
+
 ## Modelling
 I trained Logistic Regression as my baseline model and then added KNN, SVM and Random Forest. Unsurprisingly, Random Forest turned out to be the best model in the pack, leaving behind Logistic Regression by more than 3 percentage points in accuracy.
 
