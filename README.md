@@ -1,4 +1,4 @@
-# Classify-Song-Genres
+# Classify Song Genres
 
 Streaming services categorize music to allow for personalized recommendations. They directly analyze the raw audio information and score the raw data on a variety of metrics. With this project, I have analyzed music steaming data compiled by a music intelligence and data platform known as '[The Echo Nest](https://en.wikipedia.org/wiki/The_Echo_Nest),' now part of Spotify.
 
