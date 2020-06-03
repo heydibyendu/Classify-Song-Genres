@@ -11,10 +11,7 @@ The music steaming data is composed of two datasets: the first dataset is about 
 ![Image](https://github.com/heydibyendu/Classify-Song-Genres/blob/master/dataset_head.png)
 
 ## Modelling
-I trained Logistic Regression as my baseline model and then added KNN, SVM and Random Forest. Unsurprisingly, Random Forest turned out to be the best model in the pack, leaving behind Logistic Regression by more than 3 percentage points in accuracy.
+I trained Logistic Regression as my baseline model and then added KNN, SVM and Random Forest. Unsurprisingly, Random Forest turned out to be the best model in the pack, leaving Logistic Regression behind by more than 3 percentage points in accuracy.
 
 ## Results
-The model achieved 84.95% accuracy in predicting genres through parameter estimation in the training set. I used grid search with 10-fold cross-validation for tuning the parameters. In the held-out validation set, the model achieved an accuracy of 84.59%, which matches closely to the expectations estimated during the tuning of Random Forest.
-
-## Lessons
-This project taught me about how to manipulate data, including handling outliers as well as dimensionality reduction, prepare the dataset for model building, and build a robust machine learning model.
+The model achieved 84.95% accuracy in predicting genres through parameter estimation in the training set. I used grid search with 10-fold cross-validation for tuning the parameters. In the held-out validation set, the model achieved an accuracy of 84.59%, which matches closely to the expectations estimated during the tuning.
