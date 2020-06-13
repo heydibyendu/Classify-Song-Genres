@@ -10,7 +10,7 @@ The music steaming data is composed of two datasets: the first dataset is about 
 
 ![Image](https://github.com/heydibyendu/Classify-Song-Genres/blob/master/dataset_head.png)
 
-## Modelling
+## Modeling
 I trained Logistic Regression as my baseline model and then added KNN, SVM and Random Forest. Unsurprisingly, Random Forest turned out to be the best model in the pack, leaving Logistic Regression behind by more than 3 percentage points in accuracy.
 
 ## Results
